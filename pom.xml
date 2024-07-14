@@ -18,7 +18,7 @@
     <repositories>
         <repository>
             <id>dev-tools</id>
-            <url>repo.osrsbots.com/dev-tools</url>
+            <url>https://repo.osrsbots.com/dev-tools</url>
         </repository>
     </repositories>
 
@@ -28,6 +28,7 @@
             <artifactId>dev-tools</artifactId>
             <version>LATEST</version>
         </dependency>
+
     </dependencies>
 
 </project>
