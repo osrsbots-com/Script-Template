@@ -9,7 +9,7 @@ import util.GameListener;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-@ScriptMeta(name = "SimpleChopper", author = "ORB", version = 0.1)
+@ScriptMeta(name = "SimpleChopper6", author = "ORB", version = 0.1)
 public class SimpleChopper implements Script {
 
     /*

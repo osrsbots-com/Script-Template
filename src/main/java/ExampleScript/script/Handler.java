@@ -87,7 +87,6 @@ public class Handler {
                 // Drop all logs
                 if (Items.drop("Logs")) {
                     script.state = SimpleChopper.State.IDLE;
-
                     log.info("@DROP~ Done!");
                 }
                 break;
