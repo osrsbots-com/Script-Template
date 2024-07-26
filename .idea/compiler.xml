@@ -7,8 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ORB-Script-Template" />
+        <module name="ExampleUtil" />
+        <module name="ExampleScript" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

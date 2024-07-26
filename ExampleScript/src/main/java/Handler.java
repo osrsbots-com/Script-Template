@@ -1,5 +1,3 @@
-package script;
-
 import com.osrsbots.orb.api.interact.interactables.entities.Items;
 import com.osrsbots.orb.api.interact.interactables.entities.Objects;
 import com.osrsbots.orb.api.interact.interactables.entities.Player;

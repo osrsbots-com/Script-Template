@@ -1,15 +1,12 @@
-package script;
-
 import com.osrsbots.orb.api.interact.interactables.types.RSPlayer;
 import com.osrsbots.orb.api.util.ClientUI;
 import com.osrsbots.orb.api.util.ScriptUtil;
 import com.osrsbots.orb.scripts.framework.Script;
 import com.osrsbots.orb.scripts.framework.ScriptMeta;
-import util.GameListener;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-@ScriptMeta(name = "SimpleChopper6", author = "ORB", version = 0.1)
+@ScriptMeta(name = "SimpleChopper6", author = "ORB", version = 0.2)
 public class SimpleChopper implements Script {
 
     /*
