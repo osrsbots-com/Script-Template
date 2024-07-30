@@ -19,6 +19,7 @@
     <modules>
         <module>ExampleScript</module>
         <module>ExampleUtil</module>
+        <module>ExampleMiner</module>
     </modules>
 
     <repositories>

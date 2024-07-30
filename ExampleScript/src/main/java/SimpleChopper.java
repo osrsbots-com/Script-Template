@@ -1,11 +1,15 @@
+import com.osrsbots.orb.api.interact.interactables.entities.Objects;
+import com.osrsbots.orb.api.interact.interactables.types.RSObject;
 import com.osrsbots.orb.api.interact.interactables.types.RSPlayer;
 import com.osrsbots.orb.api.util.ClientUI;
 import com.osrsbots.orb.api.util.ScriptUtil;
 import com.osrsbots.orb.scripts.framework.Script;
 import com.osrsbots.orb.scripts.framework.ScriptMeta;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
+@Slf4j
 @ScriptMeta(name = "SimpleChopper6", author = "ORB", version = 0.2)
 public class SimpleChopper implements Script {
 
@@ -68,9 +72,21 @@ public class SimpleChopper implements Script {
             ScriptUtil.removeSubscriptionListener(threatListener);
     }
 
+    boolean mined = false;
+
     @Override
     public void loop() {
-        if (pressedStart.get())
-            Handler.loop(this);
+        if (pressedStart.get()) {
+            RSObject rock = Objects.query().names("Copper rocks").results().nearestToPlayer();
+            log.info("rock=" + rock);
+
+
+            if (!mined && rock != null) {
+                mined = rock.interact("Mine");
+                log.info("mined=" + mined);
+            }
+
+        }
+        //Handler.loop(this);
     }
 }
