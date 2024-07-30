@@ -1,5 +1,4 @@
-import com.osrsbots.orb.api.interact.interactables.entities.Objects;
-import com.osrsbots.orb.api.interact.interactables.types.RSObject;
+
 import com.osrsbots.orb.api.interact.interactables.types.RSPlayer;
 import com.osrsbots.orb.api.util.ClientUI;
 import com.osrsbots.orb.api.util.ScriptUtil;
@@ -15,7 +14,7 @@ public class SimpleChopper implements Script {
 
     /*
         Create a new enum, called State
-        This is used to track the player's progress and identfy
+        This is used to track the player's progress and identify
         Which action the script should do during each loop
     */
     public enum State {
@@ -72,21 +71,10 @@ public class SimpleChopper implements Script {
             ScriptUtil.removeSubscriptionListener(threatListener);
     }
 
-    boolean mined = false;
-
     @Override
     public void loop() {
         if (pressedStart.get()) {
-            RSObject rock = Objects.query().names("Copper rocks").results().nearestToPlayer();
-            log.info("rock=" + rock);
-
-
-            if (!mined && rock != null) {
-                mined = rock.interact("Mine");
-                log.info("mined=" + mined);
-            }
-
+            Handler.loop(this);
         }
-        //Handler.loop(this);
     }
 }
