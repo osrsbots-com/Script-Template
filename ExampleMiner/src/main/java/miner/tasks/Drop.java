@@ -2,7 +2,7 @@ package miner.tasks;
 
 import com.osrsbots.orb.api.interact.interactables.entities.Items;
 import com.osrsbots.orb.api.util.Random;
-import com.osrsbots.orb.scripts.framework.ScriptTask;
+import com.osrsbots.orb.scripts.framework.task.ScriptTask;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

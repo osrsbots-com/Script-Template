@@ -2,8 +2,8 @@
 import com.osrsbots.orb.api.interact.interactables.types.RSPlayer;
 import com.osrsbots.orb.api.util.ClientUI;
 import com.osrsbots.orb.api.util.ScriptUtil;
-import com.osrsbots.orb.scripts.framework.Script;
 import com.osrsbots.orb.scripts.framework.ScriptMeta;
+import com.osrsbots.orb.scripts.framework.loop.Script;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.atomic.AtomicBoolean;

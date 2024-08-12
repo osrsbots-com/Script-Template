@@ -6,7 +6,7 @@ import com.osrsbots.orb.api.interact.interactables.types.RSPlayer;
 import com.osrsbots.orb.api.util.ClientUI;
 import com.osrsbots.orb.api.util.Delay;
 import com.osrsbots.orb.api.util.Random;
-import com.osrsbots.orb.scripts.framework.ScriptTask;
+import com.osrsbots.orb.scripts.framework.task.ScriptTask;
 import lombok.extern.slf4j.Slf4j;
 import miner.Mining;
 
