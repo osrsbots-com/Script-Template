@@ -33,7 +33,7 @@
         <dependency>
             <groupId>com.osrsbots</groupId>
             <artifactId>dev-tools</artifactId>
-            <version>RELEASE</version>
+            <version>1.6.5</version>
         </dependency>
 
     </dependencies>
