@@ -17,8 +17,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ExampleScript</module>
-        <module>ExampleUtil</module>
+        <module>LoopingScript/ExampleScript</module>
+        <module>LoopingScript/ExampleUtil</module>
+        <module>TaskScript/ExampleMiner-ScriptBuilder</module>
         <module>ExampleMiner</module>
     </modules>
 
@@ -33,7 +34,7 @@
         <dependency>
             <groupId>com.osrsbots</groupId>
             <artifactId>dev-tools</artifactId>
-            <version>1.6.5</version>
+            <version>1.9.5</version>
         </dependency>
 
     </dependencies>

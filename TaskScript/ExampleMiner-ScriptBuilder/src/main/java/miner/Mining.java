@@ -1,11 +1,11 @@
 package miner;
 
-import com.osrsbots.orb.api.interact.interactables.entities.Items;
-import com.osrsbots.orb.api.interact.interactables.entities.Objects;
-import com.osrsbots.orb.api.interact.interactables.types.RSObject;
-import com.osrsbots.orb.api.interact.interactables.types.RSPlayer;
-import com.osrsbots.orb.api.interact.interactables.widgets.Bank;
-import com.osrsbots.orb.api.interact.interactables.world.traverse.Traverse;
+import com.osrsbots.orb.api.interactables.entities.Items;
+import com.osrsbots.orb.api.interactables.entities.Objects;
+import com.osrsbots.orb.api.interactables.types.RSObject;
+import com.osrsbots.orb.api.interactables.types.RSPlayer;
+import com.osrsbots.orb.api.interactables.widgets.Bank;
+import com.osrsbots.orb.api.interactables.world.Traverse;
 import com.osrsbots.orb.api.util.AnimationID;
 import com.osrsbots.orb.api.util.ClientUI;
 import com.osrsbots.orb.api.util.Delay;
