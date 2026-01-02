@@ -1,11 +1,12 @@
 
-import com.osrsbots.orb.api.interact.interactables.types.RSPlayer;
+import com.osrsbots.orb.api.interactables.types.RSPlayer;
 import com.osrsbots.orb.api.util.ClientUI;
 import com.osrsbots.orb.api.util.ScriptUtil;
 import com.osrsbots.orb.scripts.framework.ScriptMeta;
 import com.osrsbots.orb.scripts.framework.loop.Script;
 import lombok.extern.slf4j.Slf4j;
 
+import javax.annotation.Nullable;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 @Slf4j
@@ -25,6 +26,7 @@ public class SimpleChopper implements Script {
     State state;
 
     // Keep track of local player
+    @Nullable
     RSPlayer player;
 
     // Keep track of how many loops Player is idle

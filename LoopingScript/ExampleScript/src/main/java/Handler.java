@@ -1,7 +1,7 @@
-import com.osrsbots.orb.api.interact.interactables.entities.Items;
-import com.osrsbots.orb.api.interact.interactables.entities.Objects;
-import com.osrsbots.orb.api.interact.interactables.entities.Player;
-import com.osrsbots.orb.api.interact.interactables.types.RSObject;
+import com.osrsbots.orb.api.interactables.entities.Items;
+import com.osrsbots.orb.api.interactables.entities.Objects;
+import com.osrsbots.orb.api.interactables.entities.Player;
+import com.osrsbots.orb.api.interactables.types.RSObject;
 import com.osrsbots.orb.api.util.Delay;
 import com.osrsbots.orb.api.util.Random;
 import com.osrsbots.orb.api.util.ScriptUtil;
